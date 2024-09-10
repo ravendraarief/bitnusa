@@ -1,19 +1,18 @@
 import React from 'react';
-import logo from '../assets/finallogo.png';
-import Image from 'next/image';
+import Logo from './Logo';
 
 const Header = () => {
   return (
-    <nav className="flex justify-between items-center p-4">
-      <div>
-        <Image src={logo} width={170} height={52.79} alt="bitnusa-logo" />
-      </div>
+    <nav className="flex justify-between items-center sticky top-0 bg-white p-5 bg-opacity-60 backdrop-filter backdrop-blur-lg">
+      <Logo />
       <div className="flex gap-4">
         <p className="cursor-pointer hover:font-semibold">Home</p>
         <p className="cursor-pointer hover:font-semibold">About Us</p>
         <p className="cursor-pointer hover:font-semibold">Works With Us</p>
       </div>
-      <div></div>
+      <div>
+        <button>Reach Us</button>
+      </div>
     </nav>
   );
 };
