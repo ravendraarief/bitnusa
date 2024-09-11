@@ -5,12 +5,13 @@ import grid from '@/assets/Grid.png';
 import phone from '@/assets/iPhone15Plus.png';
 import iconArrow from '@/assets/icon-arrow.png';
 import workPlace from '@/assets/workplaceimage.png';
+import Maintenance from '@/components/Maintenance';
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="flex min-h-screen bg-slate-100">
-        <section className="pt-16">
+        {/* <section className="pt-16">
           <div className="flex">
             <div className="absolute top-20 z-10">
               <Image src={grid} width={450} height={200} alt="grid" />
@@ -55,9 +56,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        <Maintenance />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
