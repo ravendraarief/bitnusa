@@ -5,17 +5,6 @@ import grid from '@/assets/Grid.png';
 import phone from '@/assets/iPhone15Plus.png';
 import iconArrow from '@/assets/icon-arrow.png';
 import workPlace from '@/assets/workplaceimage.png';
-<<<<<<< HEAD
-import Maintenance from '@/components/Maintenance';
-export default function Home() {
-  return (
-    <>
-      {/* <Header /> */}
-      <main className="flex min-h-screen bg-slate-100">
-        {/* <section className="pt-16">
-          <div className="flex">
-            <div className="absolute top-20 z-10">
-=======
 import ecommerceProduct from '@/assets/imageProduct.png';
 import MobileNav from '@/components/MobileNav';
 export default function Home() {
@@ -27,7 +16,6 @@ export default function Home() {
         <section className="relative lg:min-h-screen">
           <div className="relative">
             <div className=" hidden lg:flex  lg:absolute lg:top-0 lg:z-10">
->>>>>>> dev
               <Image src={grid} width={450} height={200} alt="grid" />
             </div>
             <div className="z-20 flex flex-col  justify-center  mb-20 mt-10 lg:w-[400px] lg:absolute lg:top-20 lg:left-16">
@@ -81,12 +69,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-        </section> */}
-        <Maintenance />
-      </main>
-      {/* <Footer /> */}
-=======
         </section>
         <section className="relative p-12 lg:p-20">
           <div className="flex flex-col gap-4 lg:flex-row justify-center items-center">
@@ -106,7 +88,6 @@ export default function Home() {
       </main>
 
       <Footer />
->>>>>>> dev
     </>
   );
 }
