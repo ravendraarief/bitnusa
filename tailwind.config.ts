@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       worksans:["WorkSans","sans-serif"],
+      worksansbook:["WorkSansBook","sans-serif"],
       neuemont: ["NeueMont", "sans-serif"],
     },
     extend: {
