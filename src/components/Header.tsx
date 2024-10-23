@@ -3,15 +3,13 @@ import Logo from './Logo';
 
 const Header = () => {
   return (
-    <nav className=" hidden lg:flex justify-between items-center sticky top-0 bg-white p-5 bg-opacity-60 backdrop-filter backdrop-blur-lg z-50">
+    <nav className=" hidden lg:flex justify-between items-center sticky top-0 bg-[#161616] px-5 z-50">
       <Logo />
-      <div className="flex gap-4">
-        <p className="cursor-pointer hover:font-semibold">Home</p>
-        <p className="cursor-pointer hover:font-semibold">About Us</p>
-        <p className="cursor-pointer hover:font-semibold">Works With Us</p>
-      </div>
-      <div>
-        <button>Reach Us</button>
+      <div className="flex space-x-4 items-center">
+        <p className="text-white font-light font-neuemont">Our Services</p>
+        <button className="bg-white text-black p-2 font-neuemont">
+          Contact Us
+        </button>
       </div>
     </nav>
   );
