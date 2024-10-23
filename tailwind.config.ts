@@ -7,6 +7,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      worksans:["WorkSans","sans-serif"],
+      worksansbook:["WorkSansBook","sans-serif"],
+      neuemont: ["NeueMont", "sans-serif"],
+    },
     extend: {
       colors: {
         background: "var(--background)",

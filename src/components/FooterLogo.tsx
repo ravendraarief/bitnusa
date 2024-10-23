@@ -1,16 +1,16 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from '@/assets/Bitnusa_White_logo.png';
+import logo from '@/assets/monogram.png';
 import Link from 'next/link';
 
-const Logo = () => {
+const FooterLogo = () => {
   return (
     <div className="w-36">
       <Link href="/">
         <Image
           src={logo}
-          width={150}
-          height={52.79}
+          width={98}
+          height={118}
           alt="bitnusa-logo"
           className="w-[100px] md:w-auto "
         />
@@ -19,4 +19,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default FooterLogo;
